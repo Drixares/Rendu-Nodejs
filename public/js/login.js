@@ -1,6 +1,6 @@
-const email = document.getElementById('email');
-const password = document.getElementById('password');
-const form = document.querySelector('form');
+const email = document.getElementById('formEmail');
+const password = document.getElementById('formPassword');
+const form = document.querySelector('form.formContainer');
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
